@@ -13,6 +13,7 @@ pub struct ReLU<const M: usize> {
 }
 
 impl ReLU<1> {
+    #[allow(dead_code)]
     pub fn new(_layer_name: &str) -> Self{
         Self {
             layer_name : _layer_name.to_string(),
@@ -22,6 +23,7 @@ impl ReLU<1> {
 }
 
 impl ReLU<2> {
+    #[allow(dead_code)]
     pub fn new(_layer_name: &str) -> Self{
         Self {
             layer_name : _layer_name.to_string(),
@@ -31,6 +33,7 @@ impl ReLU<2> {
 }
 
 impl ReLU<3> {
+    #[allow(dead_code)]
     pub fn new(_layer_name: &str) -> Self{
         Self {
             layer_name : _layer_name.to_string(),
@@ -40,6 +43,7 @@ impl ReLU<3> {
 }
 
 impl ReLU<4> {
+    #[allow(dead_code)]
     pub fn new(_layer_name: &str) -> Self{
         Self {
             layer_name : _layer_name.to_string(),
